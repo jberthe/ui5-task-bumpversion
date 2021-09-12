@@ -1,0 +1,31 @@
+{
+  "name": "ui5-task-bumpversion",
+  "version": "1.0.0",
+  "description": "Task for ui5-builder which generates new version in manifest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jberthe/ui5-task-bumpversion.git"
+  },
+  "keywords": [
+    "Custom",
+    "task",
+    "UI5",
+    "Tooling"
+  ],
+  "author": "Joseph BERTHE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jberthe/ui5-task-bumpversion/issues"
+  },
+  "homepage": "https://github.com/jberthe/ui5-task-bumpversion#readme",
+  "dependencies": {
+    "@ui5/logger": "^2.0.1"
+  },
+  "ui5": {
+    "dependencies": []
+  }
+}
